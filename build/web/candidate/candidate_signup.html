@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Signup</title>
+  <link rel="stylesheet" href="../css/candidate_signup.css" />
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Candidate Signup</h2>
+    <form method="post" action="../candidate-signup" id="signupForm">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input type="hidden" name="jobId" id="jobIdField" />
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already registered? <a id="loginLink" href="candidate_login.html">Login here</a></p>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const jobId = urlParams.get("jobId");
+
+    if (jobId) {
+      document.getElementById("jobIdField").value = jobId;
+
+      // Pass jobId to login page also
+      document.getElementById("loginLink").href = "candidate_login.html?jobId=" + jobId;
+    }
+  </script>
+</body>
+</html>

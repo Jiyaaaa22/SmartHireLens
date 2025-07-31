@@ -1,0 +1,61 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+     background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Upload box */
+.upload-container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title */
+.upload-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #0a3d62;
+}
+
+/* Subtitle */
+.upload-container p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* File input */
+form input[type="file"] {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #f7f9fc;
+    cursor: pointer;
+}
+
+/* Submit button */
+form button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form button:hover {
+    background-color: #003c8f;
+    box-shadow: 0 6px 14px rgba(0, 60, 143, 0.3);
+}

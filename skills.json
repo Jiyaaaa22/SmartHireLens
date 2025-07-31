@@ -1,0 +1,20 @@
+{
+  "java": ["java", "core java"],
+  "c++": ["c++", "cpp"],
+  "python": ["python"],
+  "html": ["html", "hypertext markup language"],
+  "css": ["css", "cascading style sheets"],
+  "javascript": ["javascript", "js"],
+  "mysql": ["mysql", "structured query language"],
+  "react": ["react", "reactjs", "react.js"],
+  "oop": ["oop", "object oriented", "object-oriented programming"],
+  "rest api": ["rest api", "restful api", "api integration"],
+  "git": ["git", "version control", "github"],
+  "bootstrap": ["bootstrap", "responsive design framework"],
+  "communication": ["communication", "verbal skills"],
+  "teamwork": ["teamwork", "collaboration"],
+  "problem solving": ["problem solving", "analytical thinking"],
+  "leadership": ["leadership", "team leader"],
+  "adaptability": ["adaptability", "flexibility"],
+  "time management": ["time management", "punctual", "deadline management"]
+}
